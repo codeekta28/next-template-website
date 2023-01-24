@@ -1,0 +1,15 @@
+.userinfoContainer{
+    height:100vh;
+}
+.userRow{
+    height: 60%;
+    width: 100%;
+}
+
+.logoLabel{
+    border: 2px solid;
+    padding: 2px 38px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 10px
+}

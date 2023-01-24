@@ -1,0 +1,6 @@
+@media only screen and (max-width: 975px) {
+    .main{
+     background: url("/assests/Images/signin.jpg") center center/cover no-repeat !important;
+    }
+
+  }
