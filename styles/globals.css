@@ -105,7 +105,15 @@ a {
     color-scheme: dark;
   }
 } */
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1,h2,h3{
+font-family: 'Poppins', sans-serif;;
+}
 :root{
   --bgLightColor:#778da9;
   --cardColor:#e0e1dd;

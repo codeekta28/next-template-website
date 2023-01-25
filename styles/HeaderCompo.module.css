@@ -1,0 +1,14 @@
+.header {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    height: 40rem;
+}
+.headerContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.button{
+    background-color: rgb(0, 27, 140);
+}

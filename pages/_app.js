@@ -6,6 +6,7 @@ import "../styles/globals.css";
 import { useEffect } from "react";
 import { RedirectUserOnTokenBasis } from "../helper/RedirectUserOnTokenBasis";
 import { useRouter } from "next/router";
+import HeadCompo from "../components/HeadCompo";
 
 export default function App({ Component, pageProps }) {
   const router = useRouter();
@@ -15,8 +16,9 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   return (
+      
     <Provider store={store}>
       <Component {...pageProps} />
-    </Provider>
+     </Provider>
   );
 }

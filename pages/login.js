@@ -17,6 +17,7 @@ import { useForm } from "react-hook-form";
 import { setTokenToLocalStorage } from "../helper/setTokenToLocalStorage";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
+import HeadCompo from "../components/HeadCompo";
 
 const schema = yup.object({
   email: yup.string().email().required(),
@@ -34,7 +35,7 @@ function login() {
   const [signInStatus, setSignInStatus] = useState(null);
   const [signInMsg, setSignInMsg] = useState("");
 
-   // validation
+   // validation (common)
    const {
     register,
     handleSubmit,
@@ -74,15 +75,15 @@ function login() {
   };
   return (
     <>
-      <Head>
-        <title>Shop Future-Sign In</title>
+      <HeadCompo>
+      <title>Shop Future-Sign In</title>
         <meta
           name="description"
           content="create your own website using shop future to increase your customer"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-      </Head>
+      </HeadCompo>
       <main
         className={`d-flex flex-column justify-content-center p-3 ${styles.main}  `}
         style={{ height: "100vh", backgroundColor: "var(--signInBgColor)" }}
