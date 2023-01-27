@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../../styles/button.module.css"
+import styles from "../../styles/Button.module.css"
 
 function Button({children,onClick,classname,bgColor,color}) {
   const btnStyle={
