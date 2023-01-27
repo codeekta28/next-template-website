@@ -1,6 +1,5 @@
 import React from "react";
 import Head from "next/head";
-import Card from "../components/UI/Card";
 import ImageInitial from "../components/SignUpLogIn/ImageInitial";
 import signIn from "../public/assests/Images/signIn.jpg";
 import Heading from "../components/SignUpLogIn/Heading";
@@ -104,7 +103,7 @@ function login() {
             </div>
           )}
         </div>
-        <Card className="container ">
+        <div className="container ">
           <div className="row" style={{ backgroundColor: "var(--signInCard)" }}>
             <div className="col-lg-7 d-none d-lg-block p-3">
               <ImageInitial img={signIn} alt="image for signin page" />
@@ -149,7 +148,7 @@ function login() {
               </div>
             </div>
           </div>
-        </Card>
+        </div>
       </main>
     </>
   );

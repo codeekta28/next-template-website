@@ -1,0 +1,12 @@
+.icon{
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 5px;
+  
+}
+.para{
+    color:var(--signInBgColor);
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 2px;
+}

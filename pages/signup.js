@@ -5,7 +5,6 @@ import styles from "../styles/Home.module.css";
 import Heading from "../components/SignUpLogIn/Heading";
 import Button from "../components/UI/Button";
 import ImageInitial from "../components/SignUpLogIn/ImageInitial";
-import Card from "../components/UI/Card";
 import InputCompo from "../components/SignUpLogIn/InputCompo";
 import Link from "next/link";
 import logo from "../public/assests/Images/logo.png";
@@ -124,7 +123,7 @@ export default function SignUp() {
         style={{ height: "100vh", backgroundColor: "var(--bgLightColor)" }}
       >
         <div style={msgStyle}>{display}</div>
-        <Card className="container ">
+        <div className="container ">
           <div className="row" style={{ backgroundColor: "var(--cardColor)" }}>
             <div className="col-lg-4 px-3">
               <div className=" d-flex flex-column justify-content-center h-100 pl-2">
@@ -185,7 +184,7 @@ export default function SignUp() {
               <ImageInitial img={signUp} alt="signUp Image" />
             </div>
           </div>
-        </Card>
+        </div>
       </main>
     </>
   );

@@ -1,0 +1,7 @@
+.tryContainer{
+    padding: 3rem;
+}
+.tryImage{
+    display: flex;
+    justify-content: center;
+}

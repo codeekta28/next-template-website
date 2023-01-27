@@ -105,14 +105,19 @@ a {
     color-scheme: dark;
   }
 } */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap');
 *{
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
 }
+body{
+  /* font-family: "Poppins",sans-serif; */
+  line-height: 1.6;
+}
 h1,h2,h3{
-font-family: 'Poppins', sans-serif;;
+font-family: 'Poppins', sans-serif;
+
 }
 :root{
   --bgLightColor:#778da9;
@@ -141,4 +146,8 @@ input{
 input::placeholder{
 
   font-weight: 500;
+}
+a{
+ color: white;
+  text-decoration: none;
 }

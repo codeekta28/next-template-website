@@ -1,0 +1,9 @@
+.img{
+    max-width: 150px;
+    transition: all .2s ease-in;
+    width: 100%;
+}
+.img:hover{
+    transform: translateY(-15px);
+    cursor: pointer;
+}

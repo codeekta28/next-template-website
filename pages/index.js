@@ -1,7 +1,14 @@
 import React from "react";
+import BestPlatform from "../components/BestPlatform";
+import CloudHosting from "../components/CloudHosting";
+import DesignInfo from "../components/DesignInfo";
+import Footer from "../components/Footer";
 import HeadCompo from "../components/HeadCompo";
 import HeaderCompo from "../components/HeaderCompo";
 import Navbar from "../components/Navbar";
+import Tools from "../components/Tools";
+import Try from "../components/Try";
+import styles from "../styles/Home.module.css"
 
 function Home() {
   return (
@@ -17,6 +24,15 @@ function Home() {
       </HeadCompo>
       <Navbar/>
      <HeaderCompo/>
+     <main>
+      {/* <DesignInfo/> */}
+      <Tools/>
+      <BestPlatform/>
+      <CloudHosting/>
+      <Try/>
+      <hr className={styles.hrDotted}/>
+     </main>
+     <Footer/>
     </>
   );
 }
