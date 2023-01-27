@@ -19,7 +19,7 @@ function Try() {
             <p style={{color:"var(--signInBgColor)"}} class="my-4 lead fw-bolder">
               Try simple shop for free right away or speak to one of our experts.
             </p>
-            <Link href="/signUp">
+            <Link href="/signup">
               <Button bgColor={"rgb(8, 51, 150)"} color="white" classname="me-2">Try for Free</Button>
             </Link>
             <Link href="#">
